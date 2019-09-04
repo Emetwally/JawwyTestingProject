@@ -1,0 +1,411 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#sampletesting.feature"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 18457084038,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomepageStep.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 6647105,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PaymentPageStepDefinition.beforeScenarioTwo()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3253330,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TermsNcondsStepDefinition.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2062220,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SubscribeStepDefinition.beforeScenarioTwo()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Validate back button on payment screen",
+        "description": "",
+        "id": "verify-sample-tests-for-home-and-login-screen;validate-back-button-on-payment-screen;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1173439401,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomepageStep.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9552707953,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Jawwy homepage open successfully",
+            "match": {
+              "location": "HomepageStep.Validate_HomepageTitle()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3641433208,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters \"testuser@gm.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testuser@gm.com",
+                  "offset": 13
+                }
+              ],
+              "location": "HomepageStep.user_enters_username_and_password(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2794893516,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters \"12345678\" also clicks on continue button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12345678",
+                  "offset": 13
+                }
+              ],
+              "location": "HomepageStep.Click_at_Continue_button(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3018928428,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should see back button displayed on payment screen",
+            "match": {
+              "location": "HomepageStep.Validate_Back_Button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@bottomtest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 15249996222,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomepageStep.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2289776,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PaymentPageStepDefinition.beforeScenarioTwo()"
+            }
+          },
+          {
+            "result": {
+              "duration": 6960882,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TermsNcondsStepDefinition.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1944443,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SubscribeStepDefinition.beforeScenarioTwo()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Validate user navigates back to subscribe now page",
+        "description": "",
+        "id": "verify-sample-tests-for-home-and-login-screen;validate-user-navigates-back-to-subscribe-now-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1009306214,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomepageStep.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7905837861,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Jawwy homepage open successfully",
+            "match": {
+              "location": "HomepageStep.Validate_HomepageTitle()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4296678847,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user enters \"\u003cusername\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cusername\u003e",
+                  "offset": 13
+                }
+              ],
+              "location": "HomepageStep.user_enters_username_and_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2556421728,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user enters \"\u003cpassword\u003e\" also clicks on continue button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cpassword\u003e",
+                  "offset": 13
+                }
+              ],
+              "location": "HomepageStep.Click_at_Continue_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6164134076,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user navigates back to subscribe now page",
+            "match": {
+              "location": "SubscribeStepDefinition.NavigateBack_SubscribePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3951458710,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user clicks on Click here link in create your account section",
+            "match": {
+              "location": "SubscribeStepDefinition.Click_CreateYourAccountPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1464160032,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user clicks on Subscribe link in Existing User section",
+            "match": {
+              "location": "SubscribeStepDefinition.Click_SubscribeLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1148140757,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user should redirect to subscribe screen",
+            "match": {
+              "location": "SubscribeStepDefinition.FinalStep_SubscribeScreen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 39,
+            "name": "@bottomtest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12828475708,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomepageStep.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1709332,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PaymentPageStepDefinition.beforeScenarioTwo()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2794220,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TermsNcondsStepDefinition.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1487999,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SubscribeStepDefinition.beforeScenarioTwo()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "Validate terms and conditions page",
+        "description": "",
+        "id": "verify-sample-tests-for-home-and-login-screen;validate-terms-and-conditions-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1005368884,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomepageStep.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8215078031,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Jawwy homepage open successfully",
+            "match": {
+              "location": "HomepageStep.Validate_HomepageTitle()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1193317606,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "user clicks on Terms and Conditions link in create your account section",
+            "match": {
+              "location": "TermsNcondsStepDefinition.Click_TermsNCondURL()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1747187780,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "user should see that Terms and Conditions section is displayed",
+            "match": {
+              "location": "TermsNcondsStepDefinition.Verify_TermsNConditionsPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 51,
+            "name": "@bottomtest"
+          }
+        ]
+      }
+    ],
+    "name": "Verify sample tests for home and login screen",
+    "description": "",
+    "id": "verify-sample-tests-for-home-and-login-screen",
+    "keyword": "Feature",
+    "uri": "C:/Users/Basem/eclipse-workspace/JawwyTestingProject/src/test/java/TvJawwyFeatures/SampleFeature.feature"
+  }
+]

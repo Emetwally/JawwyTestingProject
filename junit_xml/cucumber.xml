@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="107.403199">
+<testcase classname="Verify sample tests for home and login screen" name="Validate back button on payment screen" time="38.650449">
+<system-out><![CDATA[Given Jawwy homepage open successfully......................................passed
+And user enters "testuser@gm.com"...........................................passed
+And user enters "12345678" also clicks on continue button...................passed
+Then user should see back button displayed on payment screen................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify sample tests for home and login screen" name="Validate user navigates back to subscribe now page" time="43.75733">
+<system-out><![CDATA[Given Jawwy homepage open successfully......................................passed
+And user enters "<username>"................................................passed
+And user enters "<password>" also clicks on continue button.................passed
+And user navigates back to subscribe now page...............................passed
+And user clicks on Click here link in create your account section...........passed
+And user clicks on Subscribe link in Existing User section..................passed
+Then user should redirect to subscribe screen...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify sample tests for home and login screen" name="Validate terms and conditions page" time="24.99542">
+<system-out><![CDATA[Given Jawwy homepage open successfully......................................passed
+And user clicks on Terms and Conditions link in create your account section.passed
+Then user should see that Terms and Conditions section is displayed.........passed
+]]></system-out>
+</testcase>
+</testsuite>
